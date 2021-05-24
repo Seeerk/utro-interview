@@ -10,7 +10,7 @@
     margin: 0;
     padding: 0;
     font-family: Helvetica, serif;
-    font-weight: normals;
+    font-weight: normal;
 }
 
 a {
@@ -31,24 +31,25 @@ p {
 img {
     pointer-events: none;
 }
+
 h1, h2, h3 {
-  font-weight: lighter;
+    font-weight: lighter;
 }
 
 /*----------------------------------HEADER-----------------------------------*/
 
 
 header {
-  background-color: rgba(8, 8, 8, 0.5);
-  -webkit-backdrop-filter: blur(16px);
-  backdrop-filter: blur(16px);
-  z-index: 2;
-  position: fixed;
-  width: 100%;
-  max-height: 64px;
-  display: flex;
-  flex-wrap: wrap;
-  /*justify-content: space-around;*/
+    background-color: rgba(8, 8, 8, 0.5);
+    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    max-height: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: space-around;*/
 
 }
 
@@ -170,7 +171,7 @@ h3 {
 }
 
 p {
-  text-align: left;
+    text-align: left;
 }
 
 /*----------------------------------FOOTER-----------------------------------*/
@@ -191,65 +192,67 @@ footer > a {
 
 
 h4 {
-  text-align: left;
-  font-weight: bold;
-  font-size: 32pt;
-  animation: flow 3s ease-in-out infinite;
-  background: linear-gradient(-30deg, #904e95, #904e95, #e73c7e, #ee7752);
-  background-size: 300%;
-  margin: 32px 0 8px;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+    text-align: left;
+    font-weight: bold;
+    font-size: 32pt;
+    animation: flow 3s ease-in-out infinite;
+    background: linear-gradient(-30deg, #904e95, #904e95, #e73c7e, #ee7752);
+    background-size: 300%;
+    margin: 32px 0 8px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .highlight {
-  animation: flow 3s ease-in-out infinite;
-  background: linear-gradient(-30deg, #904e95, #904e95, #e73c7e, #ee7752);
-  background-size: 300%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bold;
+    animation: flow 3s ease-in-out infinite;
+    background: linear-gradient(-30deg, #904e95, #904e95, #e73c7e, #ee7752);
+    background-size: 300%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
 }
 
 @keyframes flow {
-  0% {
-    background-position: 0 50%;
-  }
+    0% {
+        background-position: 0 50%;
+    }
 
-  50% {
-    background-position: 100% 50%;
-  }
+    50% {
+        background-position: 100% 50%;
+    }
 
-  100% {
-    background-position: 0 50%;
-  }
+    100% {
+        background-position: 0 50%;
+    }
 }
 
 .emojiText {
-  font-size: 32pt;
+    font-size: 32pt;
 }
 
 .album {
-  margin-top: 32px;
-  /*margin-left: 8px;*/
-  display: flex;
-  height: 403px;
-  overflow-x: scroll;
-  overflow-y: hidden;
+    margin-top: 32px;
+    /*margin-left: 8px;*/
+    display: flex;
+    height: 403px;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
+
 .album > img {
-  max-height: 403px;
+    max-height: 403px;
 }
+
 .archived {
-  height: 403px;
-  margin: 0;
-  padding: 0;
+    height: 403px;
+    margin: 0;
+    padding: 0;
 }
 
 .mobile {
-  display: none;
+    display: none;
 }
 
 @media (max-width: 1280px) {
@@ -298,12 +301,12 @@ h4 {
     }
 
     .reason-Card {
-      display: flex;
-      margin: 24px auto;
-      width: calc(100% - 16px);
-      height: 64px;
-      background-color: #303030;
-      border-radius: 16px;
+        display: flex;
+        margin: 24px auto;
+        width: calc(100% - 16px);
+        height: 64px;
+        background-color: #303030;
+        border-radius: 16px;
     }
 
     .reason-Card-Img {
@@ -317,33 +320,32 @@ h4 {
     }
 
     .emoji {
-      padding: 16px;
+        padding: 16px;
     }
 
     .mobile {
-      display: block;
+        display: block;
     }
 }
 
-  @media (max-width: 375px) {
+@media (max-width: 369px) {
 
     .reason-Card {
-      margin: 16px auto;
-      height: 48px;
+        margin: 16px auto;
+        height: 48px;
     }
-      
+
     .reason-Card-Img {
-      width: 48px;
-      font-size: 14px;
+        width: 48px;
+        font-size: 14px;
     }
 
     .emoji {
-      padding: 12.5px;
+        padding: 12.5px;
     }
-
 
     .reason-Card-Text {
-      font-size: 12px;
-      padding: 18px 16px;
+        font-size: 12px;
+        padding: 18px 16px;
     }
-  }
+}
