@@ -48,7 +48,7 @@ header {
   max-height: 64px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  /*justify-content: space-around;*/
 
 }
 
@@ -324,3 +324,26 @@ h4 {
       display: block;
     }
 }
+
+  @media (max-width: 375px) {
+
+    .reason-Card {
+      margin: 16px auto;
+      height: 48px;
+    }
+      
+    .reason-Card-Img {
+      width: 48px;
+      font-size: 14px;
+    }
+
+    .emoji {
+      padding: 12.5px;
+    }
+
+
+    .reason-Card-Text {
+      font-size: 12px;
+      padding: 18px 16px;
+    }
+  }
