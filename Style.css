@@ -129,7 +129,7 @@ h1 {
 }
 
 .emoji {
-    padding: 20px
+    padding: 20px;
 }
 
 .reason-Card-Text {
@@ -166,6 +166,7 @@ h3 {
 .project-Link {
     padding: 16px 0;
     color: orange;
+    text-decoration: underline;
 }
 
 p {
@@ -265,6 +266,29 @@ h4 {
     .reason-Card-Text {
         vertical-align: middle;
         font-size: 16px;
-        padding: 28px;
+        padding: 24px 16px;
+    }
+
+    .reason-Card {
+      display: flex;
+      margin: 24px auto;
+      width: calc(100% - 16px);
+      height: 64px;
+      background-color: #303030;
+      border-radius: 16px;
+    }
+
+    .reason-Card-Img {
+        background: #171717;
+        text-align: center;
+        justify-content: center;
+        font-size: 24px;
+        width: 64px;
+        border-radius: 16px 0 0 16px;
+        margin: 0;
+    }
+
+    .emoji {
+      padding: 16px;
     }
 }
