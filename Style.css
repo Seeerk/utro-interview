@@ -10,7 +10,7 @@
     margin: 0;
     padding: 0;
     font-family: Helvetica, serif;
-    font-weight: lighter;
+    font-weight: normals;
 }
 
 a {
@@ -30,6 +30,9 @@ p {
 
 img {
     pointer-events: none;
+}
+h1, h2, h3 {
+  font-weight: lighter;
 }
 
 /*----------------------------------HEADER-----------------------------------*/
@@ -165,6 +168,10 @@ h3 {
     color: orange;
 }
 
+p {
+  text-align: left;
+}
+
 /*----------------------------------FOOTER-----------------------------------*/
 
 footer {
@@ -183,13 +190,22 @@ h4 {
   /*animation: flow 30s ease-in-out infinite;*/
   background: linear-gradient(-30deg, #904e95, #904e95, #e73c7e, #ee7752);
   background-size: 120%;
-  margin: 64px 0 8px;
+  margin: 32px 0 8px;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-span {
+.highlight {
+  background: linear-gradient(-30deg, #904e95, #904e95, #e73c7e, #ee7752);
+  background-size: 120%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.emojiText {
   font-size: 32pt;
 }
 
