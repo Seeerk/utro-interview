@@ -199,6 +199,9 @@ span {
   overflow-x: scroll;
   overflow-y: hidden;
 }
+.album > img {
+  max-height: 403px;
+}
 .archived {
   height: 403px;
   margin: 0;
