@@ -111,12 +111,12 @@ h1 {
     margin: 24px auto;
     width: calc(100% - 16px);
     height: 72px;
-    background-color: dimgray;
+    background-color: #303030;
     border-radius: 16px;
 }
 
 .reason-Card-Img {
-    background-color: gray;
+    background: #171717;
     text-align: center;
     justify-content: center;
     font-size: 24px;
@@ -176,6 +176,34 @@ footer {
     justify-content: center;
 }
 
+h4 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 32pt;
+  /*animation: flow 30s ease-in-out infinite;*/
+  background: linear-gradient(-30deg, #904e95, #904e95, #e73c7e, #ee7752);
+  background-size: 120%;
+  margin: 64px 0 8px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+span {
+  font-size: 32pt;
+}
+
+.album {
+  display: flex;
+  height: 403px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.archived {
+  height: 403px;
+  margin: 0;
+  padding: 0;
+}
 
 @media (max-width: 1280px) {
 
