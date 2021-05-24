@@ -40,15 +40,15 @@ h1, h2, h3 {
 
 header {
   background-color: rgba(8, 8, 8, 0.5);
-    -webkit-backdrop-filter: blur(16px);
-    backdrop-filter: blur(16px);
-    z-index: 2;
-    position: fixed;
-    width: 100%;
-    max-height: 64px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  max-height: 64px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 
 }
 
@@ -176,13 +176,19 @@ p {
 /*----------------------------------FOOTER-----------------------------------*/
 
 footer {
-    height: 64px;
+    height: 128px;
     width: 100%;
+    background-color: rgba(8, 8, 8, 0.5);
     -webkit-backdrop-filter: blur(16px);
     backdrop-filter: blur(16px);
     display: flex;
     justify-content: center;
 }
+
+footer > a {
+    padding: 52px 20px;
+}
+
 
 h4 {
   text-align: left;
@@ -242,6 +248,10 @@ h4 {
   padding: 0;
 }
 
+.mobile {
+  display: none;
+}
+
 @media (max-width: 1280px) {
 
     h1 {
@@ -272,6 +282,7 @@ h4 {
 
     .text, .project-Description {
         border-radius: 32px;
+        background-color: rgba(8, 8, 8, 0.5);
         -webkit-backdrop-filter: blur(8px);
         backdrop-filter: blur(8px);
     }
@@ -307,5 +318,9 @@ h4 {
 
     .emoji {
       padding: 16px;
+    }
+
+    .mobile {
+      display: block;
     }
 }
